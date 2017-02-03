@@ -93,9 +93,20 @@ img#headshot {
 	height: 184px;
 }
 
+
+.programTile:hover {
+	-webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+	margin-top: -1px;
+}
 .programTile:hover .tileName {
 	background-color: #4d1979;
-	}
+}
+
+a:hover {
+	text-decoration: none;
+}
 
 
 input[type="text"],
