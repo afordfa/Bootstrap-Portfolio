@@ -67,10 +67,13 @@ img#headshot {
 
 
 .contact-buttons {
-	width: 100%;
+	width: 85px;
 	height: auto;
 }
 
+#contact-info {
+	margin-top: 60px;
+}
 
 
 /*PORTFOLIO PAGE*/
@@ -115,3 +118,42 @@ textarea {
     padding: 0;
     border: 1px solid #ccc;
     }
+
+
+
+/*media queries*/
+
+@media screen and (max-width: 980px) {
+	 .contact-buttons {
+		 width: 65px;
+		 height: 65px;
+
+	 }
+
+ 	
+ }
+
+ @media screen and (max-width: 768px) {
+	 .contact-buttons {
+		 width: 65px;
+		 height: 65px;
+	 }
+	img#headshot {
+		width: 300px;
+		height: auto;
+	}
+   
+ }
+
+ @media screen and (max-width: 640px) { 
+
+	 .contact-buttons {
+		 width: 65px;
+		 height: 65px;
+	 }
+	img#headshot {
+		width: 300px;
+		height: auto;
+	}	 
+
+ }

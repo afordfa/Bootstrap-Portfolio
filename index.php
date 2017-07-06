@@ -4,5 +4,3 @@
 
  ?>
 
- /* https://quiet-badlands-45070.herokuapp.com/index.html
- */
